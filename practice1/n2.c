@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
     int a, b;
 
@@ -9,7 +10,7 @@ int main() {
     printf("Sum: %d\n", a + b);
     printf("Difference: %d\n", a - b);
     printf("Product: %d\n", a * b);
-    printf("Delen: %d\n", a / b);
+    printf("Integer division: %d\n", a / b);
 
     return 0;
 }
